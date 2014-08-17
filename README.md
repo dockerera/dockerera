@@ -7,6 +7,12 @@ Docker era mergs the two Old Projects Container Harbor and Varius others into Do
 Goals:
 Building a Docker Powered Cloud Plattfrom where you can run Hadoop Tasks in and Store Infinity Data For Processing in Realtime.
 
+Compatiblity to:
+Project Atomic DockerHosts
+Project CoreOS DockerHosts
+Nativ Docker Running Hosts
+Linux Windows MAC
+
 Using Ubuntu-Core + JUJU + MAAS + NODE.JS + CloudEra + Serf + Couchbase + Vagrant + Fig + Packer.io + Docker.io and all the Dependencys they got and build on.
 
 ## Workflow
@@ -20,3 +26,12 @@ Using Ubuntu-Core + JUJU + MAAS + NODE.JS + CloudEra + Serf + Couchbase + Vagran
 # First Test Results The DockerEra Cloud Structure is as Performant as Amazon Cloud or Azure The Diffrents are Realy the Same if you use Windows or Linux as Couchbase Host
 
 DockerEra for Windows is Planed but not focused.
+
+
+
+
+# Ready Services are:
+Route53 Clone
+S3 Clone
+EC2 Clone
+More Soon
