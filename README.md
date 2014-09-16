@@ -73,7 +73,7 @@ Setting up an S3-backed private registry is fairly simple. Just follow [these in
 
 #### Configuration Store
 
-We are currently using Couchbase to store and distribute the cluster's state. DockerEra uses PubSub to notify Routers of updates to the internal application routing table. We're looking into support for etcd as a single point of failure exists if the Redis instance is not redundant.
+We are currently using Couchbase to store and distribute the cluster's state. DockerEra uses PubSub to notify Routers of updates to the internal application routing table. We're looking into support for CouchBase as a single point of failure exists if the Redis instance is not redundant and we use Couchbase for Every thing there is no question :D.
 
 ![Diagram](http://i.imgur.com/I0POpX4.png)
 
