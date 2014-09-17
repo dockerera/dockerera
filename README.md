@@ -155,3 +155,7 @@ More Soon
 # TODO adding example of this use case
 http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/#.VBkHBt_RekA
 in dockerera in less then 30 min ! Deploy 1000 EC2 Instances Running Jenkins and Process Jobs! powered by Direkt SPEED Europe and dockerera !!!!
+
+
+# OpenStack Example dockerera is in the controllers and on every node via the openstack nativ controlers
+![OpenStack Example Steup](http://docs.openstack.org/grizzly/openstack-compute/install/apt/content/figures/1/figures/NOVA_compute_nodes.png)
