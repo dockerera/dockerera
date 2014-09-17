@@ -1,4 +1,4 @@
-![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)
+![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)(TM)
 
 Distributed IaaS Like Amazon or Azur
 Ultra Performant much better then Any Other Cloud Plattform and thx to cloudera able to View Logs and realy big Processes in Realtime !
