@@ -1,7 +1,10 @@
 ![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)(TM)
 
 Distributed IaaS Like Amazon or Azur
-Ultra Performant much better then Any Other Cloud Plattform and thx to cloudera able to View Logs and realy big Processes in Realtime !
+Ultra Performant much better then Any Other Cloud Plattform 
+using ![cloudera](http://inside-bigdata.com/wp-content/uploads/2013/10/Cloudera-Logo.png)
+to View Logs and realy big Processes in Realtime ! dockerera supplys cloudera deployment in minuts!
+so even if you only whant to run cloudera in production you should watch at dockerera!
 
 At Present Porting Longshore man Concepts into dockerera
 Integrating HIPACHE Routers
