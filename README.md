@@ -11,7 +11,7 @@ Integrating Apache Routers
 
 # dockerera
 
-Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or DirektSPEED Hosting (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
+dockerera automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or DirektSPEED Hosting (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
 
 [Main GitHub project page](https://github.com/dockerera)
 
