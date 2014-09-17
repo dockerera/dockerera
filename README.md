@@ -5,7 +5,7 @@ Ultra Performant much better then Any Other Cloud Plattform
 
 At Present Porting Longshore man Concepts into DockerEra
 
-![Longshoreman](http://i.imgur.com/4vkVHdI.png)
+![Longshoreman](http://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)
 
 # Longshoreman
 
