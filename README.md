@@ -1,15 +1,17 @@
-DockerEra + CloudEra = Distributed IaaS Like Amazon or Azur
+dockerera + cloudera
 ========
-Ultra Performant much better then Any Other Cloud Plattform
+Distributed IaaS Like Amazon or Azur
+Ultra Performant much better then Any Other Cloud Plattform and thx to cloudera able to View Logs and realy big Processes in Realtime !
 
-
-At Present Porting Longshore man Concepts into DockerEra
+At Present Porting Longshore man Concepts into dockerera
+Integrating HIPACHE Routers
+Integrating Apache Routers
 
 ![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)
 
-# Longshoreman
+# dockerera
 
-Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
+Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or DirektSPEED Hosting (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
 
 [Main GitHub project page](https://github.com/dockerera)
 
