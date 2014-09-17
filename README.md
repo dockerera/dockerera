@@ -1,10 +1,16 @@
+
+
+dockerera is Instand out of the box IaaS and PaaS using docker, couchbase, cloudera:
+
 ![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)(TM)
+![couchbase](https://www.nimic.net/wp-content/uploads/2014/04/couchbase_logo.png)
+![cloudera](http://inside-bigdata.com/wp-content/uploads/2013/10/Cloudera-Logo.png)
 
 Distributed IaaS Like Amazon or Azur
 Ultra Performant much better then Any Other Cloud Plattform 
-using ![cloudera](http://inside-bigdata.com/wp-content/uploads/2013/10/Cloudera-Logo.png)
+using 
 to View Logs and realy big Processes in Realtime ! dockerera supplys cloudera deployment in minuts!
-so even if you only whant to run cloudera in production you should watch at dockerera!
+so even if you only whant to run cloudera or couchbase only in production you should watch at dockerera!
 
 At Present Porting Longshore man Concepts into dockerera
 Integrating HIPACHE Routers
