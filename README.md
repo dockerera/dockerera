@@ -5,23 +5,23 @@ Ultra Performant much better then Any Other Cloud Plattform
 
 At Present Porting Longshore man Concepts into DockerEra
 
-![Longshoreman](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)
+![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)
 
 # Longshoreman
 
 Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
 
-[Main GitHub project page](https://github.com/longshoreman)
+[Main GitHub project page](https://github.com/dockerera)
 
 ## Why make this?
 
-We created Longshoreman because we love using Docker but were frustrated with the lack of production-ready deployment options that were available at the time. We looked closely at Deis, Flynn, Dokku and others, but they either did not meet our requirements or were explicitly marked as not ready for production. 
+We created dockerera because we love using Docker but were frustrated with the lack of production-ready deployment options that were available at the time. We looked closely at Deis, Flynn, Dokku and others, but they either did not meet our requirements or were explicitly marked as not ready for production. 
 
 This Project got Born out of Many Little IDEAS that i got as i Planed to Start my New Internet Service
 Now i Ended up and Did my Own IaaS With High Performance Ultra High I/O Blasting Perfromance.
 And i Offer that Know How to Anyone Who Needs it.
 
-DockerEra mergs the two Old Projects Container Harbor and Varius others into DockerEra Distribution
+dockerera mergs the two Old Projects Container Harbor and Varius others into DockerEra Distribution
 
 Goals:
 Building a Docker Powered Cloud Plattfrom where you can run Hadoop Tasks in and Store Infinity Data For Processing in Realtime.
@@ -32,7 +32,7 @@ Project CoreOS DockerHosts
 Nativ Docker Running Hosts
 Linux Windows MAC
 
-Using Ubuntu-Core + JUJU + MAAS + NODE.JS + CloudEra + Couchbase + Packer.io + Docker.io and all the Dependencys they got and build on.
+Using Ubuntu + MAAS + NODE.JS + cloudera + Couchbase + Packer.io + Docker.io and all the Dependencys they got and build on.
 
 
 ## Who made it?
@@ -40,35 +40,35 @@ Using Ubuntu-Core + JUJU + MAAS + NODE.JS + CloudEra + Couchbase + Packer.io + D
 libcontainer is sponsored/developed by MichaelCrosby
 Docker is sponsored/developed by Docker Inc
 Vagrant is sponsored/developed by MitchellH
-Longshoreman is sponsored/developed by Wayfinder
+dockera is sponsored/developed by DirektSPEED Europe
 
 ## How does it work?
 
-DockerEra has 4 core components: a Controller, one or more Routers and the CLI. It also uses a Docker registry and Couchbase as its configuration database and Distributed file Storage.
+dockerera has 3 core components: a controller, one or more Routers and cloudera stack. It also uses a Docker registry and Couchbase as its configuration database and Distributed file Storage.
 
 ### Controller
 
 The DockerEra controller is a service which orchestrates the deployment of Docker applications across a cluster and controls how traffic is routed to individual application instances. It is a REST API that can be used via HTTTP with the CLI tool or else What. Launching a new version of an application is as simple as `dockerera --app my.app.com deploy docker.repo.com/image:tag`. Your application will be deployed to 2 or more nodes (depending on the size of your cluster and its available resources). Versioning and rollbacks can be achieved using image tags.
 
-[Controller Repository](https://github.com/longshoreman/controller)
+[NODEJS Controller Repository](https://github.com/dockerera/controller)
 
 ### Routers
 
 Routers dynamically direct incoming web traffic to the correct application instances we are using Hipache from Docker Inc. Multiple routers can be utilized to distribute traffic and eliminate single points of failure.
 
-[Router Repository](https://github.com/longshoreman/router)
+[NODEJS Router Repository](https://github.com/dockerera/router)
 
 ### CLI
 
 The command line tool is an interface to the Longshoreman controller service. It allows users to describe the state of the application cluster, deploy new instances of applications (with zero-downtime), add and remove hosts, add and remove application environmental variables and more. See the link below for full documentation.
 
-[CLI Repository](https://github.com/longshoreman/cli)
+[NODEJS CLI Repository](https://github.com/dockerera/cli)
 
 ### Other Components
 
 #### Registry
 
-DockerEra uses a Docker registry to coordinate application versioning and deployment. Docker registries are outside of the scope of this project, so if you're unfamiliar with them please [read more here](https://github.com/dotcloud/docker-registry). 
+dockerera uses a Docker registry to coordinate application versioning and deployment. Docker registries are outside of the scope of this project, so if you're unfamiliar with them please [read more here](https://github.com/dotcloud/docker-registry). 
 Setting up an S3-backed private registry is fairly simple. Just follow [these instructions](https://github.com/dotcloud/docker-registry).
 
 #### Configuration Store
