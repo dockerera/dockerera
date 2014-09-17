@@ -3,6 +3,8 @@
 dockerera is Instand out of the box IaaS and PaaS using docker, couchbase, cloudera:
 
 ![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)(TM)
+
+![docker](https://docs.docker.com/img/nav/docker-logo-loggedout.png)
 ![couchbase](https://www.nimic.net/wp-content/uploads/2014/04/couchbase_logo.png)
 ![cloudera](http://inside-bigdata.com/wp-content/uploads/2013/10/Cloudera-Logo.png)
 
@@ -145,3 +147,10 @@ Route53 Clone
 S3 Clone
 EC2 Clone
 More Soon
+
+
+
+
+# TODO adding example of this use case
+http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/#.VBkHBt_RekA
+in dockerera in less then 30 min ! Deploy 1000 EC2 Instances Running Jenkins and Process Jobs! powered by Direkt SPEED Europe and dockerera !!!!
