@@ -1,12 +1,13 @@
 
 
-dockerera is Instand out of the box IaaS and PaaS using docker, couchbase, cloudera:
+dockerera is Instand out of the box IaaS and PaaS using docker, couchbase, cloudera, openstack:
 
 ![dockerera logo](https://github.com/dockerera/dockerera/raw/master/dockerera-logo.png)(TM)
 
 ![docker](https://docs.docker.com/img/nav/docker-logo-loggedout.png)
 ![couchbase](https://www.nimic.net/wp-content/uploads/2014/04/couchbase_logo.png)
 ![cloudera](http://inside-bigdata.com/wp-content/uploads/2013/10/Cloudera-Logo.png)
+![openstack](http://www.openstack.org/assets/openstack-logo/openstack-cloud-software-vertical-small.png)
 
 Distributed IaaS Like Amazon or Azur
 Ultra Performant much better then Any Other Cloud Plattform 
@@ -18,7 +19,7 @@ At Present Porting Longshore man Concepts into dockerera
 Integrating HIPACHE Routers
 Integrating Apache Routers
 
-dockerera automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or DirektSPEED Hosting (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI.
+dockerera automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or DirektSPEED Hosting or OpenStack (or whatever you like) and deploy applications using a Heroku-like CLI tool or Our Web Interface WebUI. And yes you can run dockerera on OpenStack but you can also run OpenStack on top of dockerera it takes about 10 min and AWS Credentials to deploy openstack to AWS EC2 Instances with dockerera!
 
 [Main GitHub project page](https://github.com/dockerera)
 
